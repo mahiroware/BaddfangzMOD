@@ -1,0 +1,32 @@
+# Materiales
+newmtl wood
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.15 0.15 0.15
+Ns 40
+illum 2
+map_Kd Wood010_2K_Color.png
+map_Bump -bm 1.0 Wood010_2K_NormalGL.png
+norm Wood010_2K_NormalGL.png
+
+newmtl speaker
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.05 0.05 0.05
+Ns 10
+illum 2
+map_Kd subwoofer_v3.png
+
+newmtl soundsystem
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 1
+map_Kd SoundSystem_49921A.png
+
+newmtl rubber_black
+Ka 0 0 0
+Kd 0.02 0.02 0.02
+Ks 0.05 0.05 0.05
+Ns 10
+illum 2
