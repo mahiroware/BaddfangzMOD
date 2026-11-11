@@ -1,0 +1,40 @@
+newmtl wheels_suspension
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd textures/wheels_suspension.png
+
+newmtl turret_mantlet
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd textures/turret_mantlet.png
+
+newmtl tracks
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd textures/tracks.png
+
+newmtl hull
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd textures/hull.png
+
+newmtl gun
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd textures/gun.png
+
