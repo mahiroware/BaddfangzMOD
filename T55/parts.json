@@ -4,18 +4,9 @@
  "uv": "OBJ standard (V up). Starfall's parser flips V itself. Track UVs are shifted to V in [0,1]; one V repeat = one full loop of the track.",
  "scale_from_glb": "raw glb unit -> 0.26586 Source units",
  "track_loop": {
-  "L": {
-   "length": 4922.814772964311,
-   "v_span": 1.00003,
-   "ground_dv_dx_source": 0.0010271776679421345,
-   "n": 78
-  },
-  "R": {
-   "length": 4922.816608261002,
-   "v_span": 1.00003,
-   "ground_dv_dx_source": 0.0010271776679421345,
-   "n": 78
-  }
+  "v_repeat_units": 85.8,
+  "ground_dv_dx_source": -0.01166,
+  "note": "V is tiled: one V repeat = ~85.8 units of belt. Driving forward at speed s => offset V decreases at K*s per second."
  },
  "parts": {
   "turret": {
@@ -29,7 +20,7 @@
     80.06
    ],
    "faces": 672,
-   "verts": 1316,
+   "verts": 1339,
    "bbox_min": [
     -74.81,
     -68.2,
@@ -57,7 +48,7 @@
     95.634
    ],
    "faces": 514,
-   "verts": 1039,
+   "verts": 1067,
    "bbox_min": [
     -41.82,
     -42.46,
@@ -85,7 +76,7 @@
     0.0
    ],
    "faces": 372,
-   "verts": 761,
+   "verts": 797,
    "bbox_min": [
     -165.51,
     57.34,
@@ -113,7 +104,7 @@
     0.0
    ],
    "faces": 372,
-   "verts": 795,
+   "verts": 822,
    "bbox_min": [
     -165.51,
     -87.93,
@@ -141,7 +132,7 @@
     24.819
    ],
    "faces": 148,
-   "verts": 301,
+   "verts": 328,
    "bbox_min": [
     -23.13,
     -12.67,
@@ -170,7 +161,7 @@
     24.819
    ],
    "faces": 148,
-   "verts": 287,
+   "verts": 308,
    "bbox_min": [
     -23.13,
     -12.67,
@@ -199,7 +190,7 @@
     24.819
    ],
    "faces": 148,
-   "verts": 298,
+   "verts": 323,
    "bbox_min": [
     -23.13,
     -12.67,
@@ -228,7 +219,7 @@
     24.819
    ],
    "faces": 148,
-   "verts": 297,
+   "verts": 316,
    "bbox_min": [
     -23.13,
     -12.67,
@@ -257,7 +248,7 @@
     24.819
    ],
    "faces": 148,
-   "verts": 305,
+   "verts": 325,
    "bbox_min": [
     -23.13,
     -12.67,
@@ -286,7 +277,7 @@
     24.819
    ],
    "faces": 148,
-   "verts": 295,
+   "verts": 303,
    "bbox_min": [
     -23.13,
     -12.67,
@@ -315,7 +306,7 @@
     24.819
    ],
    "faces": 148,
-   "verts": 293,
+   "verts": 301,
    "bbox_min": [
     -23.13,
     -12.67,
@@ -344,7 +335,7 @@
     24.819
    ],
    "faces": 148,
-   "verts": 295,
+   "verts": 301,
    "bbox_min": [
     -23.13,
     -12.67,
@@ -373,7 +364,7 @@
     24.819
    ],
    "faces": 148,
-   "verts": 298,
+   "verts": 305,
    "bbox_min": [
     -23.13,
     -12.67,
@@ -402,7 +393,7 @@
     24.819
    ],
    "faces": 148,
-   "verts": 298,
+   "verts": 304,
    "bbox_min": [
     -23.13,
     -12.67,
@@ -431,7 +422,7 @@
     42.4
    ],
    "faces": 94,
-   "verts": 195,
+   "verts": 213,
    "bbox_min": [
     -14.92,
     -12.03,
@@ -460,7 +451,7 @@
     42.4
    ],
    "faces": 94,
-   "verts": 173,
+   "verts": 174,
    "bbox_min": [
     -14.92,
     -12.06,
@@ -489,7 +480,7 @@
     40.153
    ],
    "faces": 264,
-   "verts": 609,
+   "verts": 631,
    "bbox_min": [
     -20.07,
     -21.35,
@@ -518,7 +509,7 @@
     40.152
    ],
    "faces": 264,
-   "verts": 618,
+   "verts": 620,
    "bbox_min": [
     -20.07,
     -21.56,
@@ -547,7 +538,7 @@
     0.0
    ],
    "faces": 1713,
-   "verts": 3591,
+   "verts": 3728,
    "bbox_min": [
     -200.77,
     -89.99,
@@ -564,5 +555,6 @@
     0
    ]
   }
- }
+ },
+ "winding": "Faces are CCW-outward (fixed: the source glb is inside-out, hidden by doubleSided). Starfall culls back faces."
 }

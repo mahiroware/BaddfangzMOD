@@ -20,4 +20,4 @@ T55PARTS = {
 	track_R = { file="obj/track_R.obj", texture="t55_track.png", parent="hull", kind="track", pivot=Vector(0.0,0.0,0.0), pivotRel=Vector(0.0,0.0,0.0) },
 	turret = { file="obj/turret.obj", texture="t55_body.png", parent="hull", kind="turret", pivot=Vector(-1.247,0.0,80.06), pivotRel=Vector(-1.247,0.0,80.06) },
 }
-T55TRACK = { loopLength=4922.81, groundDvDx=0.001027 } -- V (Source convention) per unit along X on the ground run; V span of the loop = 1
+T55TRACK = { vRepeatUnits=85.8, groundDvDx=-0.01166 } -- V (Source) per unit along +X on the ground run; V is tiled
